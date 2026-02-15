@@ -1,0 +1,162 @@
+body {
+    background-color: #f4f4f4;  
+    color: #212529;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.nav-link:hover {
+    color: #9ca3ab !important;
+}
+
+#home {
+    margin-top: 10px;
+    /*linear gadient*/
+}
+
+#home h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#home p {
+    color: #555;
+    margin-top: 10px;
+}
+
+#home .btn {
+    background-color: #696464;
+    border-color: #4c4848;
+    margin-top: 10px;
+}
+
+#home .btn:hover{
+    background-color: #4c4848;
+}
+
+section h3 {
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+#about p {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    color: #444;
+}
+
+
+#skills h5 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#skills p {
+    color: #444;
+}
+
+#skills > div {
+    background: linear-gradient(#d4d3d3, #b7b5b5f2);
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.card {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.card:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card h5 {
+    font-weight: 500;
+}
+
+.card p {
+    color: #555;
+}
+
+#projects .btn{
+    background-color: #696464;
+    border-color: #4c4848;
+}
+
+#projects .btn:hover{
+    background-color: #4c4848;
+
+}
+
+#contact {
+    background-color: #9d9d9df2;
+    color: #f8f8f8;
+    border-radius: 8px;
+}
+
+#contact p {
+    margin-bottom: 12px;
+}
+
+
+#contact i {
+    margin-right: 5px;
+}
+/* #contact form {
+    background-color: #ffffff;
+} */
+
+
+/* #phno{
+    margin-bottom: 10px;
+} */
+
+footer {
+    background-color:#444 ;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+footer i{
+    font-size: larger;
+}
+section {
+    scroll-margin-top: 90px; /* height of navbar */
+}
+
+/* Responsive design */
+@media (max-width: 700px) {
+    #home h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+    h3{
+        font-size: 1.3rem;
+    }
+    h6{
+        font-size: 0.7rem;
+    }
+    footer a{
+        font-size: small;
+    }
+}

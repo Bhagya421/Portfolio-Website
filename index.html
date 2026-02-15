@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light p-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio</a>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<br><br><br><br><br>
+
+
+    <section id="home" class="container ">
+        <div class="d-flex flex-column flex-md-row align-items-center">
+
+            <div class="p-5">
+                <h1>Bhagya Sree S</h1>
+                <!-- <p> Machine Learning Engineer focused on building intelligent, data-driven solutions.</p> -->
+                <p>Python | Machine Learning | Deep Learning | Data Science | Numpy | pandas | Matplotlib | Data Visualization </p>
+                <a href="#contact" class="btn btn-primary">Contact</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container my-5">
+        <h3 class="text-center mb-3">About Me</h3>
+        <p>I am a Machine Learning Engineer with practical experience in developing and deploying machine learning and deep learning models. I am skilled in Python, data analysis, and model evaluation techniques. My projects include healthcare-based applications such as breast and cervical cancer prediction systems using deep learning architectures. I focus on creating reliable, scalable, and interpretable AI solutions.</p>
+    </section>
+
+    <section id="skills" class="container my-5">
+        <h3 class="text-center mb-4">Skills</h3>
+
+        <div class="row text-center">
+            <div class="col-md-4 mb-3">
+                <h5>Programming</h5>
+                <p>Python, SQL, Java, HTML, CSS,</p>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <h5>Machine Learning</h5>
+                <p>
+                    Regression, Classification, Clustering, Dimensionality Reduction, Model Evaluation, Numpy, Pandas, Matplotlib
+                </p>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <h5>Deep Learning</h5>
+                <p>
+                    CNN, DenseNet, TensorFlow, Keras
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container my-5">
+        <h3 class="text-center mb-4">Projects</h3>
+
+        <div class="row">
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5>Breast and Cervical Cancer Prediction System</h5>
+                        <p>
+                            Developed a deep learning-based web application to detect breast and cervical cancerfrom medical images. The system classifies cases as Normal, Benign, or Malignantusing advanced deep learning models and is deployed using Flask.
+                        </p>
+            
+                        <p><strong>Technologies Used:</strong> Python, TensorFlow, Keras, DenseNet, Flask</p>
+                        <a href="https://github.com/Bhagya421/Brest-and-Cervical-Cancer-Prediction-System" target="_blank" class="btn btn-primary">View Project</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Test Hub</h5>
+                        <p class="card-text">
+                            Developed a web-based online examination platform where users can take domain-specifictests with automated evaluation. The system supports secure login, dynamic questiongeneration, and real-time score storage.
+                        </p>
+                        <p><strong>Technologies used:</strong> PHP, MySQL</p>
+                        <a href="https://github.com/Bhagya421/Test-Hub" target="_blank" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio</h5>
+                        <p class="card-text">
+                            Designed and developed a responsive personal portfolio website to showcase my machine learning skills, projects, and contact information using Bootstrap.
+                        </p>
+                        <p><strong>Technologies used:</strong> HTML, CSS, Bootstrap</p>
+                        <a href="https://github.com/Bhagya421/ML-portfolio" target="_blank" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-6">
+
+                <form id="contactForm" class="p-4 bg-white rounded shadow">
+
+                    <div class="mb-3">
+                        <input type="text" id="name" class="form-control" placeholder="Your Name">
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="email" id="email" class="form-control" placeholder="Your Email">
+                    </div>
+
+                    <div class="mb-3">
+                        <textarea id="message" class="form-control" rows="4" placeholder="Your Message"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-dark w-50">Send Message</button>
+
+                </form>
+
+            </div>
+        </div>
+    
+    </section>
+
+    <section id="contact" class="container my-5">
+        <h3 class="text-center pt-2 mb-4">Contact</h3>
+
+        <div class="text-center pb-3">
+            <p><i class="bi bi-envelope-fill"></i> sbhagya421@email.com</p>
+            <p id="phno"><i class="bi bi-telephone-fill"></i> +91 89252 39660</p>
+        </div>
+    </section>
+
+    <footer class=" text-white p-4">
+        <div class="container d-flex justify-content-between align-items-center flex-wrap">
+            <div class="col-md-4">
+                &copy; 2025 Bhagya Sree | ML Engineer Portfolio
+            </div>
+            <div class="col-md-4">
+                <h6>Quick Links</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#about" class="text-white">About me</a></li>
+                    <li><a href="#projects" class="text-white">Projects</a></li>
+                    <li><a href="#skills" class="text-white">Skills</a></li>
+                    <li><a href="#home" class="text-white">Home</a></li>
+
+
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h6>Follow me</h6>
+                <a href="https://github.com/Bhagya421" target="_blank" class="text-white "><i class="bi bi-github"></i></a> <br>
+                <a href="https://www.linkedin.com/in/bhagya-sree-a9a212276/" target="_blank" class="text-white"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
